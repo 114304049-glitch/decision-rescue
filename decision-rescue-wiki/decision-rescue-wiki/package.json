@@ -1,0 +1,21 @@
+{
+  "name": "decision-rescue-wiki",
+  "version": "0.1.0",
+  "description": "選擇困難救援中心：由 AI 維護的繁體中文 LLM Wiki",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "check": "node scripts/check.mjs && node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "dependencies": {
+    "markdown-it": "15.0.3",
+    "yaml": "2.9.1"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  }
+}
